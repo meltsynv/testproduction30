@@ -3,7 +3,7 @@ import HomeHeadliner from '../resources/speisekarteImgBG.jpg';
 import Zoom from 'react-reveal/Zoom';
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom';
-import pdf from '../resources/test.pdf';
+import pdf from '../resources/ElDorado_Speisekarte_20190123.pdf';
 
 function Speisekarte(props) {
     return (
