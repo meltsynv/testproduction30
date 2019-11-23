@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.sass';
+import './App-mobile.sass'
 
 import { Switch, Route} from "react-router-dom";
 
