@@ -1,6 +1,8 @@
 import React from 'react';
 import HomeHeadliner from '../resources/speisekarteImgBG.jpg';
 import Zoom from 'react-reveal/Zoom';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom';
 import pdf from '../resources/ElDorado_Speisekarte_20190123.pdf';
@@ -16,6 +18,13 @@ function Speisekarte(props) {
                 </Zoom>
             </div>
             <Layout>
+                <Row>
+                    <Col style={{margin: 'auto'}} xs={12} md={6}>
+                        <p>
+                            Genießen Sie klassische und ausgefallene Fleischgerichte sowie das saisonal wechselnde Salatbüffet in unserem gemütlichen Steakhaus. Sowohl im urigen Lokal mit den Steinwänden als auch im malerischem Innenhof servieren wir Ihnen in familiärem Ambiente internationale Spezialitäten.
+                        </p>
+                    </Col>
+                </Row>
                 <div className='speisekarte-wrapper'>
                     <div className='speisekarte-download'>
                         <Link to={pdf} target="_blank" download>

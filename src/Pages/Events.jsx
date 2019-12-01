@@ -25,8 +25,7 @@ function Events(props) {
                     <Col xs={12} md={6}>
                         <h1>Events</h1>
                         <p>
-                            Ob Sie alleine oder zu zweit oder in großer Runde speisen möchten. In unserem Lokal bieten wir passende Räumlichkeiten für Hochzeiten, Geschäftstagungen und zu allen anderen Familienanläs- sen an.
-                            Uns als Familienbetrieb ist es besonders wichtig, dass Sie sich bei uns wohlfühlen.
+                            Ob Sie alleine oder zu zweit oder in großer Runde speisen möchten. In unserem Lokal bieten wir passende Räumlichkeiten für Hochzeiten, Geschäftstagungen und zu allen anderen Familienanlässen an.
                         </p>
                     </Col>
                     <Col xs={12} md={6}>
