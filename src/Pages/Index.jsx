@@ -39,44 +39,49 @@ function Home(props) {
             </Layout>
             <PromoBanner
                 title='Speisekarte'
-                text='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                text='Genießen Sie klassische und ausgefallene Fleischgerichte sowie das saisonal wechselnde Salatbüffet in unserem gemütlichen Steakhaus. Sowohl im urigen Lokal mit den Steinwänden als auch im malerischem Innenhof servieren wir Ihnen in familiärem Ambiente internationale Spezialitäten.'
                 bgImg={SpeisekarteImg}
                 linkPage='/speisekarte'
                 reverse='reverse'
             />
             <Layout>
                 <Row>
-                    <Col xs={12} md={6}>
-                        <Zoom delay='100'>
+                    <Col style={{margin: 'auto'}}s={12} md={6}>
+                        <Zoom delay='50'> 
                             <Product
                                 bgImg={intsaBilder}
-                                text='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                                title='BLACK ANGUS STEAK'
+                                text='Unsere saftigen und zarten Steaks, die wir für Sie am Holzkohlegrill zubereiten, sind vom Black Angus Rind,
+                                    das auf saftigen Weiden Südamerikas gezüchtet wird. Wenn Sie keine besonderen Wünsche äußern,
+                                    wird Ihr Steak „Medium“ gegrillt.'
                             />
+                        </Zoom>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12} md={6}>
+                        <Zoom delay='100'>
                             <ProductDescription
-                                productD_title='Hüftsteak | Bife de Cuadril'
-                                productD_text='Das beste aus der Rinderkeule'
+                                productD_title='Hüftsteak'
+                                productD_text='Das klassische fettarme Steak mit nahezu keiner Marmorierung.'
                             />
                             <hr />
                             <ProductDescription
-                                productD_title='Rumpsteak | Bife Angosto'
-                                productD_text='Ein herzhaftes Stück aus dem Rinderrücken mit schmalem Fettrand'
+                                productD_title='Rumpsteak'
+                                productD_text='Herzhaftes Stück aus dem Roastbeef geschnitten mit klassischem Fettrand.'
                             />
                         </Zoom>
                     </Col>
                     <Col xs={12} md={6}>
                         <Zoom delay='200'>
-                            <Product
-                                bgImg={intsaBilder}
-                                text='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                            />
                             <ProductDescription
-                                productD_title='Filet | Bife de Lomo'
-                                productD_text='Filet. Ein zartes Stück von dem Rind'
+                                productD_title='Filet'
+                                productD_text='Zartes und saftiges Stück mit feinster Marmorierung.'
                             />
                             <hr />
                             <ProductDescription
-                                productD_title='Ribeyessteak | Bife Ancho'
-                                productD_text='Von Fett durchzogenes Stück aus der Vorderrippe'
+                                productD_title='Ribeyessteak'
+                                productD_text='Das Entrecôte - sehr kräftig und würzig im Geschmack.'
                             />
                         </Zoom>
                     </Col>
@@ -84,7 +89,7 @@ function Home(props) {
             </Layout>
             <PromoBanner
                 title='Events'
-                text='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                text='Ob Sie alleine oder zu zweit oder in großer Runde speisen möchten. In unserem Lokal bieten wir passende Räumlichkeiten für Hochzeiten, Geschäftstagungen und zu allen anderen Familienanlässen an.'
                 bgImg={EventImg}
                 linkPage='/events'
                 reverse='margin-b0'
