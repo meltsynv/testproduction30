@@ -19,7 +19,7 @@ function Home(props) {
             <div className='head-liner' style={{ backgroundImage: `url(${HomeHeadliner})` }}>
                 <Zoom delay='200'>
                     <div className='headline-content'>
-                        <center><img src={ElDorado} /></center>
+                        <center><img src={ElDorado} alt=''/></center>
                     </div>
                 </Zoom>
             </div>

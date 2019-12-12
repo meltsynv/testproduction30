@@ -14,7 +14,7 @@ const PromoBanner = (props) => {
                         <div>
                             <h2>{props.title}</h2>
                             <p>{props.text}</p>
-                            <center><Link to={props.linkPage}><img src={WeiterBtn} width='50px' height='auto' /></Link></center>
+                            <center><Link to={props.linkPage}><img src={WeiterBtn} width='50px' height='auto' alt='weiter icont'/></Link></center>
                         </div>
                     </Col>
                     <Col lg={6} md={12} xs={12} className='right' style={{ backgroundImage: `url(${props.bgImg})` }}></Col>

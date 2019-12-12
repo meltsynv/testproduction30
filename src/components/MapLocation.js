@@ -8,6 +8,7 @@ const MapLocation = (props) => {
             height={props.height}
             frameborder="0"
             allowFullScreen
+            title='EL Dorado GoogleMaps'
         ></iframe>
     )
 }

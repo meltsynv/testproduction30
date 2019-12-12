@@ -19,7 +19,7 @@ class ScrollToTopBtn extends Component {
     render() {
         return (
             <div className={`scroll-to-top ${this.state.activeClass}`} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-                <img src={ScrollToTop_Btn} />
+                <img src={ScrollToTop_Btn} alt='scroll to top icon'/>
             </div>
         );
     }

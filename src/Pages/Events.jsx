@@ -36,11 +36,11 @@ function Events(props) {
                     </Col>
                 </Row>
                 <Row className='event-img'>
-                    <Col><img src={Geburtstag} /><p>Geburtstag</p></Col>
-                    <Col><img src={Meeting} /><p>Meeting</p></Col>
-                    <Col><img src={Taufe} /><p>Taufe</p></Col>
-                    <Col><img src={Hochzeit} /><p>Hochzeit</p></Col>
-                    <Col><img src={Beerdigung} /><p>Beerdigung</p></Col>
+                    <Col><img src={Geburtstag} alt='event icon Geburtstag'/><p>Geburtstag</p></Col>
+                    <Col><img src={Meeting} alt='event icon Meeting'/><p>Meeting</p></Col>
+                    <Col><img src={Taufe} alt='event icon Taufe'/><p>Taufe</p></Col>
+                    <Col><img src={Hochzeit} alt='event icon Hochzeit'/><p>Hochzeit</p></Col>
+                    <Col><img src={Beerdigung} alt='event icon Beerdigung'/><p>Beerdigung</p></Col>
                 </Row>
                 <div className='event-headline'>
                     <h1>Anfragen telefonisch unter:</h1>
