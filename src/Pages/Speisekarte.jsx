@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom';
-import pdf from '../resources/ElDorado_Speisekarte_20190123.pdf';
+import pdf from "../resources/Jelovnik_El_Dorado_bez_cena_INTERNET.pdf";
 
 function Speisekarte(props) {
     return (
