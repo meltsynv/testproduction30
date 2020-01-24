@@ -2,7 +2,7 @@ import React from 'react';
 import './App.sass';
 import './App-mobile.sass';
 
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 //Components import
 import NavBar from './components/NavBar';
@@ -19,7 +19,6 @@ import Wir from './Pages/Wir';
 
 function App() {
   return (
-    <BrowserRouter>
       <div className="App">
         <NavBar />
         <Switch>
@@ -33,7 +32,6 @@ function App() {
         <ScrollToTopBtn />
         <Footer />
       </div>
-    </BrowserRouter>
   );
 }
 
