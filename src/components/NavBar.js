@@ -27,6 +27,6 @@ const NavBar = () => {
             </Layout>
         </div>
     );
-}
+} 
 
 export default NavBar;

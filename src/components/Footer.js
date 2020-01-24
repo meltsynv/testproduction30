@@ -1,30 +1,39 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav';
 import Oeffnungszeiten from './Oeffnungszeiten';
 import MapLocation from './MapLocation';
 import Impressum from './Impressum';
-
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer>
-            <div className='footer-box'>
-                <Impressum />
-            </div>
-            <div className='footer-box'>
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/wir">Wir</Nav.Link>
-                <Nav.Link href="/speisekarte">Speisekarte</Nav.Link>
-                <Nav.Link href="/events">Events</Nav.Link>
-                <Nav.Link href="/kontakt">Kontakt</Nav.Link>
-            </div>
-            <div className='footer-box'>
-                <Oeffnungszeiten />
-            </div>
-            <div classNam='footer-box'>
-                <MapLocation />
-            </div>
-        </footer>
+      <footer>
+        <div className="footer-box">
+          <Impressum />
+        </div>
+        <div className="footer-box">
+          <NavLink className="nav-link" exact to="/">
+            Home
+          </NavLink>
+          <NavLink className="nav-link" to="/wir">
+            Wir
+          </NavLink>
+          <NavLink className="nav-link" to="/speisekarte">
+            Speisekarte
+          </NavLink>
+          <NavLink className="nav-link" to="/events">
+            Events
+          </NavLink>
+          <NavLink className="nav-link" to="/kontakt">
+            Kontakt
+          </NavLink>
+        </div>
+        <div className="footer-box">
+          <Oeffnungszeiten />
+        </div>
+        <div classNam="footer-box">
+          <MapLocation />
+        </div>
+      </footer>
     );
 }
 

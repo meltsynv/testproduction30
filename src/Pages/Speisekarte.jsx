@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeHeadliner from '../resources/speisekarteImgBG.jpg';
+import HomeHeadliner from '../resources/speisekarteImgBG_1.jpg';
 import Zoom from 'react-reveal/Zoom';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
