@@ -44,7 +44,7 @@ function Events(props) {
                 </Row>
                 <div className='event-headline'>
                     <h1>Anfragen telefonisch unter:</h1>
-                    <p>20327 10115</p>
+                    <p>020327 10115</p>
                 </div>
             </Layout>
         </div>

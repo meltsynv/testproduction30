@@ -10,7 +10,7 @@ const Oeffnungszeiten = () => {
             <h1>Mittwoch:</h1>
             <p>Ruhetag</p>
 
-            <h1>Sonntag:</h1>
+            <h1>Sonn- und Feiertags:</h1>
             <p>11:30 - 22:30 Uhr</p>
         </div>
     );

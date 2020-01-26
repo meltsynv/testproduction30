@@ -26,6 +26,9 @@ const Footer = () => {
           <NavLink className="nav-link" to="/kontakt">
             Kontakt
           </NavLink>
+          <NavLink className="nav-link" to="/impressum">
+            Impressum
+          </NavLink>
         </div>
         <div className="footer-box">
           <Oeffnungszeiten />

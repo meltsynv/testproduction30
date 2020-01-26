@@ -16,22 +16,24 @@ import ErrorPage from './Pages/ErrorPage';
 import Kontakt from './Pages/Kontakt';
 import Speisekarte from './Pages/Speisekarte';
 import Wir from './Pages/Wir';
+import ImpressumPage from "./Pages/Impressum";
 
 function App() {
   return (
-      <div className="App">
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/wir" component={Wir} />
-          <Route path="/speisekarte" component={Speisekarte} />
-          <Route path="/events" component={Events} />
-          <Route path="/kontakt" component={Kontakt} />
-          <Route component={ErrorPage} />
-        </Switch>
-        <ScrollToTopBtn />
-        <Footer />
-      </div>
+    <div className="App">
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/wir" component={Wir} />
+        <Route path="/speisekarte" component={Speisekarte} />
+        <Route path="/events" component={Events} />
+        <Route path="/kontakt" component={Kontakt} />
+        <Route path="/impressum" component={ImpressumPage} />
+        <Route component={ErrorPage} />
+      </Switch>
+      <ScrollToTopBtn />
+      <Footer />
+    </div>
   );
 }
 
