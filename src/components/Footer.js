@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer-box">
           <Oeffnungszeiten />
         </div>
-        <div classNam="footer-box">
+        <div className="footer-box">
           <MapLocation />
         </div>
       </footer>
