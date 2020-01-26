@@ -20,7 +20,7 @@ function Wir(props) {
                 </div>
                 <div className='wir-header'>
                     <h1>Folge uns auf Instagram!</h1>
-                    <Link to='https://www.instagram.com/steakhaus_eldorado/?hl=de' target='_blank'>steakhaus_eldorado</Link>
+                    <Link href='https://www.instagram.com/steakhaus_eldorado/?hl=de' target='_blank'>steakhaus_eldorado</Link>
                 </div>
             </Layout>
         </div>
