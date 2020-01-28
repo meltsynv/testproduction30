@@ -12,11 +12,10 @@ const ImpressumPage = () => {
           <Impressum />
           <p>Email: nemanjajeremic@hotmail.de</p>
           <br />
-          <p>Vertretungsberechtigt:</p>
-          <p>Nemanja Jeremic</p>
-          <br />
-          <p>Handelsregister:</p>
-          <p></p>
+          <p>Sitz der Gesellschaft: Bochum </p>
+          <p>Eingetragen: Amtsgericht Marl</p>
+          <p>StNr. 350/5111/3125</p>
+          <p>Geschäftsführer: Nemanja Jeremic</p>
         </Col>
       </Row>
     </Layout>
