@@ -4,9 +4,3 @@ html {
   -webkit-text-size-adjust: none;
   touch-action: pan-y;
 }
-
-input[type="text"],
-input[type="number"],
-input {
-  font-size: 16px;
-}
