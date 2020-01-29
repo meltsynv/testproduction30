@@ -1,7 +1,10 @@
-window.addEventListener("touchstart", touchHandler, false);
-
-function touchHandler(event){
-    if(event.touches.lenght > 1){
-        event.preventDefoult();
+document.addEventListener(
+  "touchmove",
+  function(event) {
+    if (event.scale !== 1) {
+      event.preventDefault();
+      alert("jo");
     }
-}
+  },
+  false
+);

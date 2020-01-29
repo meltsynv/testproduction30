@@ -18,23 +18,25 @@ import Speisekarte from './Pages/Speisekarte';
 import Wir from './Pages/Wir';
 import ImpressumPage from "./Pages/Impressum";
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/wir" component={Wir} />
-        <Route path="/speisekarte" component={Speisekarte} />
-        <Route path="/events" component={Events} />
-        <Route path="/kontakt" component={Kontakt} />
-        <Route path="/impressum" component={ImpressumPage} />
-        <Route component={ErrorPage} />
-      </Switch>
-      <ScrollToTopBtn />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {  
+  render(){
+    return (
+      <div className="App">
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/wir" component={Wir} />
+          <Route path="/speisekarte" component={Speisekarte} />
+          <Route path="/events" component={Events} />
+          <Route path="/kontakt" component={Kontakt} />
+          <Route path="/impressum" component={ImpressumPage} />
+          <Route component={ErrorPage} />
+        </Switch>
+        <ScrollToTopBtn />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,5 +1,11 @@
-html{
-    -ms-content-zooming: none;
-    -ms-touch-action: pan-y;
-    -webkit-text-size-adjust: none;
+html {
+  -ms-content-zooming: none;
+  -ms-touch-action: pan-y;
+  -webkit-text-size-adjust: none;
+}
+
+input[type="text"],
+input[type="number"],
+input {
+  font-size: 16px;
 }
