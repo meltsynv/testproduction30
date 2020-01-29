@@ -3,7 +3,9 @@ document.addEventListener(
   function(event) {
     if (event.scale !== 1) {
       event.preventDefault();
-      alert("jo");
+    }
+    else{
+        event.preventDefault();
     }
   },
   false
