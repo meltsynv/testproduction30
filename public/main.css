@@ -2,6 +2,7 @@ html {
   -ms-content-zooming: none;
   -ms-touch-action: pan-y;
   -webkit-text-size-adjust: none;
+  touch-action: pan-y;
 }
 
 input[type="text"],
