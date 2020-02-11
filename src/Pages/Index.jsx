@@ -9,9 +9,10 @@ import SpeisekarteImg from '../resources/SpeisekarteImg.jpg';
 import Oeffnungszeiten from '../components/Oeffnungszeiten';
 import Product from '../components/Product';
 import ProductDescription from '../components/ProductDescription';
-import intsaBilder from '../resources/intsaBilder.jpg'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import intsaBilder from '../resources/intsaBilder.jpg';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import PhoneNumber from '../components/phoneNumber';
 
 function Home(props) {
     return (
@@ -31,7 +32,7 @@ function Home(props) {
                     <div className='home-wellcome-down'>
                         <div className='title'>
                             <h1 className='title-name'>Reservierungen telefonisch unter:</h1>
-                            <p>02327 10115</p>
+                            <PhoneNumber/>
                         </div>
                         <Oeffnungszeiten />
                     </div>

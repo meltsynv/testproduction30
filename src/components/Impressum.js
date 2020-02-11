@@ -1,4 +1,5 @@
 import React from 'react'
+import PhoneNumber from './phoneNumber'
 
 const Impressum = () => {
     return (
@@ -7,7 +8,7 @@ const Impressum = () => {
         <p>Otto-Brenner-Straße 15</p>
         <p>44866 Bochum</p>
         <br />
-        <p>Tel: 02327 10115</p>
+        <p>Tel: <PhoneNumber/> </p>
       </div>
     );
 }
