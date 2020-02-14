@@ -7,16 +7,18 @@ import MapLocation from '../components/MapLocation';
 
 function Kontakt(props) {
     return (
-        <Layout>
-            <Row>
-                <Col xs={12} md={4}>
-                    <Impressum />
-                </Col>
-                <Col xs={12} md={8}>
-                    <MapLocation height='700' />
-                </Col>
-            </Row>
-        </Layout>
+      <Layout>
+        <div className="fill-container">
+          <Row>
+            <Col xs={12} md={4}>
+              <Impressum />
+            </Col>
+            <Col xs={12} md={8}>
+              <MapLocation height="700" />
+            </Col>
+          </Row>
+        </div>
+      </Layout>
     );
 }
 
